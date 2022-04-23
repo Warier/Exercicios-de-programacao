@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1650075967 source:c:\users\felipe\documents\facul\3º semestre\estrutura de dados\lista encadeada\main.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	"Lista.h"
+	"ListaSimples.h"
+
+1650073461 source:c:\users\felipe\documents\facul\3º semestre\estrutura de dados\lista encadeada\lista.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1650146987 c:\users\felipe\documents\facul\3º semestre\estrutura de dados\lista encadeada\lista.h
+
+1650075519 c:\users\felipe\documents\facul\3º semestre\estrutura de dados\lista encadeada\listasimples.h
+
+1650075519 source:c:\users\felipe\documents\facul\3º semestre\estrutura de dados\lista encadeada\listasimples.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	"ListaSimples.h"
+
+1650073461 source:c:\users\felipe\documents\facul\3º semestre\estrutura de dados\exercicio4\lista encadeada\lista.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1650146987 c:\users\felipe\documents\facul\3º semestre\estrutura de dados\exercicio4\lista encadeada\lista.h
+
+1650146996 source:c:\users\felipe\documents\facul\3º semestre\estrutura de dados\exercicio4\lista encadeada\main.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	"Lista.h"
+

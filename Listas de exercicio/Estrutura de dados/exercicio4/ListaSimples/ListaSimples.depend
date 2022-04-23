@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1650146466 source:c:\users\felipe\documents\facul\3º semestre\estrutura de dados\listasimples\main.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1650145137 c:\users\felipe\documents\facul\3º semestre\estrutura de dados\listasimples\lista.h
+
+1650146877 source:c:\users\felipe\documents\facul\3º semestre\estrutura de dados\listasimples\lista.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1650146877 source:c:\users\felipe\documents\facul\3º semestre\estrutura de dados\exercicio4\listasimples\lista.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	"Lista.h"
+
+1650145137 c:\users\felipe\documents\facul\3º semestre\estrutura de dados\exercicio4\listasimples\lista.h
+
+1650146888 source:c:\users\felipe\documents\facul\3º semestre\estrutura de dados\exercicio4\listasimples\main.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	"Lista.h"
+
