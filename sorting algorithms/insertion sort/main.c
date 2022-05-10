@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include "funcoes.h"
 
-#define tamanho 5
+#define TAMANHO 5000
 
 int main() {
-    int *vet = constroiVetor(tamanho) , i;
+    int *vet = constroiVetor(TAMANHO, 100) , i;
     printf("VETOR ORIGINAL\n");
-    imprimir(vet, tamanho);
+    imprimir(vet, TAMANHO);
 
     printf("VETOR ORDENADO\n");
-    insertSort(vet, tamanho);
-    imprimir(vet, tamanho);
+    insertSort(vet, TAMANHO);
+    imprimir(vet, TAMANHO);
     return 0;
 }

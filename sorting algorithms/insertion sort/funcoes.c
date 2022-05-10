@@ -9,12 +9,12 @@ void swap(int *a,int *b){ //inverte os valores das variaveis
     *a = *a - *b;
 }
 
-int* constroiVetor(int tamanho){ //gera valores aleatorios em um array
+int* constroiVetor(int tamanho, int intervalo){ //gera valores aleatorios em um array
     int *vet, i;
     vet = (int*)malloc(sizeof(int) * tamanho);
     srand(time(NULL));
     for(i = 0; i < tamanho; i++){
-        vet[i] = rand() % 10;
+        vet[i] = rand() % intervalo;
     }
     return vet;
 }
@@ -27,14 +27,12 @@ void insertSort(int *vet,int tamanho){ //algoritmo de sorting O(n^2)
     for(i = 0; i < tamanho; i++){
         aux = i;
         for(j = tamanho - 1 ; j >= 0; j--){
-            if(vet[aux] > vet[j]){
+            if(vet[aux] < vet[j]){ // alterar comparador para deixar crescente ou decrescente
                 swap(&vet[aux], &vet[j]);
                 aux = j;
             }
-            //imprimir(vet, tamanho);
+
         }
-        //printf("\n\nTESTE %d\n", i);
-        //imprimir(vet, tamanho);
     }
 
 }
@@ -45,4 +43,5 @@ void imprimir(int *vet, int tamanho){
         printf("vet[%d]: %d\n", i + 1, vet[i]);
     }
 }
+
 
