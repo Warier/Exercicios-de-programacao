@@ -9,9 +9,6 @@ void swap(int *a,int *b){ //inverte os valores das variaveis
     *a = *a - *b;
 }
 
-void swapArray(int *a, int *b){
-
-}
 
 int* constroiVetor(int tamanho, int intervalo){ //gera valores aleatorios em um array
     int *vet, i;
@@ -88,3 +85,4 @@ int* radixSort(int *input, int *cont, int tamanho){
     }
     return input;
 }
+

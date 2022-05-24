@@ -15,3 +15,5 @@ void restartArray(int *cont, int tamanho);
 void counting(int *cont, int *input, int tamanho, int digito);
 
 int* radixSort(int *input, int *cont, int tamanho);
+
+void insertSort(int *vet,int tamanho);
